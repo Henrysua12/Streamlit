@@ -41,3 +41,13 @@ st.write("""
 "Mean :" """) 
 meanmat = mat5.mean()
 meanmat
+
+
+df = pd.read_csv("AAPL.csv")
+
+df
+
+d_data = pd.read_html("https://en.wikipedia.org/wiki/Demographics_of_the_United_States",
+                    match = "Average population")[0]
+d_data
+
